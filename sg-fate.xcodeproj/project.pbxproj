@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96C632E429B952DE002EA98B /* sg_fateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C632E329B952DE002EA98B /* sg_fateApp.swift */; };
-		96C632E629B952DE002EA98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C632E529B952DE002EA98B /* ContentView.swift */; };
+		9657473029C0EF730035CAAF /* CardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657472F29C0EF730035CAAF /* CardState.swift */; };
+		9657473629C2245C0035CAAF /* CardPileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657473529C2245C0035CAAF /* CardPileView.swift */; };
+		9657473829C224A60035CAAF /* CardPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657473729C224A60035CAAF /* CardPile.swift */; };
+		9657473A29C224CD0035CAAF /* CardCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657473929C224CD0035CAAF /* CardCount.swift */; };
+		9657473C29C225D10035CAAF /* CardPilePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657473B29C225D10035CAAF /* CardPilePresentation.swift */; };
+		9657473F29C249200035CAAF /* CardFromPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657473E29C249200035CAAF /* CardFromPile.swift */; };
+		9657474329C281CF0035CAAF /* BindingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657474229C281CF0035CAAF /* BindingProvider.swift */; };
+		9657474529C284B80035CAAF /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657474429C284B80035CAAF /* CardStore.swift */; };
+		96C632E429B952DE002EA98B /* SGFateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C632E329B952DE002EA98B /* SGFateApp.swift */; };
+		96C632E629B952DE002EA98B /* CardStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C632E529B952DE002EA98B /* CardStateView.swift */; };
 		96C632E829B952E2002EA98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C632E729B952E2002EA98B /* Assets.xcassets */; };
 		96C632EB29B952E2002EA98B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C632EA29B952E2002EA98B /* Preview Assets.xcassets */; };
 		96C632F529B952E2002EA98B /* sg_fateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C632F429B952E2002EA98B /* sg_fateTests.swift */; };
@@ -34,9 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9657472F29C0EF730035CAAF /* CardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardState.swift; sourceTree = "<group>"; };
+		9657473529C2245C0035CAAF /* CardPileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPileView.swift; sourceTree = "<group>"; };
+		9657473729C224A60035CAAF /* CardPile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPile.swift; sourceTree = "<group>"; };
+		9657473929C224CD0035CAAF /* CardCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCount.swift; sourceTree = "<group>"; };
+		9657473B29C225D10035CAAF /* CardPilePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPilePresentation.swift; sourceTree = "<group>"; };
+		9657473D29C22ACF0035CAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9657473E29C249200035CAAF /* CardFromPile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFromPile.swift; sourceTree = "<group>"; };
+		9657474229C281CF0035CAAF /* BindingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProvider.swift; sourceTree = "<group>"; };
+		9657474429C284B80035CAAF /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
 		96C632E029B952DE002EA98B /* sg-fate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sg-fate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96C632E329B952DE002EA98B /* sg_fateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sg_fateApp.swift; sourceTree = "<group>"; };
-		96C632E529B952DE002EA98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96C632E329B952DE002EA98B /* SGFateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGFateApp.swift; sourceTree = "<group>"; };
+		96C632E529B952DE002EA98B /* CardStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStateView.swift; sourceTree = "<group>"; };
 		96C632E729B952E2002EA98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96C632EA29B952E2002EA98B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96C632F029B952E2002EA98B /* sg-fateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sg-fateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9657472C29BFCC190035CAAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9657474229C281CF0035CAAF /* BindingProvider.swift */,
+				9657473929C224CD0035CAAF /* CardCount.swift */,
+				9657473E29C249200035CAAF /* CardFromPile.swift */,
+				9657473729C224A60035CAAF /* CardPile.swift */,
+				9657473B29C225D10035CAAF /* CardPilePresentation.swift */,
+				9657472F29C0EF730035CAAF /* CardState.swift */,
+				9657474429C284B80035CAAF /* CardStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		96C632D729B952DE002EA98B = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +125,11 @@
 		96C632E229B952DE002EA98B /* sg-fate */ = {
 			isa = PBXGroup;
 			children = (
-				96C632E329B952DE002EA98B /* sg_fateApp.swift */,
-				96C632E529B952DE002EA98B /* ContentView.swift */,
+				9657473D29C22ACF0035CAAF /* Info.plist */,
+				96C632E329B952DE002EA98B /* SGFateApp.swift */,
+				9657472C29BFCC190035CAAF /* Models */,
+				9657473529C2245C0035CAAF /* CardPileView.swift */,
+				96C632E529B952DE002EA98B /* CardStateView.swift */,
 				96C632E729B952E2002EA98B /* Assets.xcassets */,
 				96C632E929B952E2002EA98B /* Preview Content */,
 			);
@@ -257,8 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96C632E629B952DE002EA98B /* ContentView.swift in Sources */,
-				96C632E429B952DE002EA98B /* sg_fateApp.swift in Sources */,
+				96C632E629B952DE002EA98B /* CardStateView.swift in Sources */,
+				9657474529C284B80035CAAF /* CardStore.swift in Sources */,
+				9657473A29C224CD0035CAAF /* CardCount.swift in Sources */,
+				9657473829C224A60035CAAF /* CardPile.swift in Sources */,
+				9657473029C0EF730035CAAF /* CardState.swift in Sources */,
+				9657474329C281CF0035CAAF /* BindingProvider.swift in Sources */,
+				96C632E429B952DE002EA98B /* SGFateApp.swift in Sources */,
+				9657473C29C225D10035CAAF /* CardPilePresentation.swift in Sources */,
+				9657473629C2245C0035CAAF /* CardPileView.swift in Sources */,
+				9657473F29C249200035CAAF /* CardFromPile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +462,8 @@
 				DEVELOPMENT_TEAM = SPUZ278J57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "sg-fate/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SG Fate";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +492,8 @@
 				DEVELOPMENT_TEAM = SPUZ278J57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "sg-fate/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SG Fate";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
